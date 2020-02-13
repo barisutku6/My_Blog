@@ -1,0 +1,249 @@
+* 
+header{
+    width: 100%;
+    height: 90px;
+    background-color: whitesmoke ;
+    font-weight: lighter;
+    /*position: fixed;
+    z-index: 999;*/
+}
+html{
+    scroll-behavior: smooth;
+}
+.navigation{
+    width: 50%;
+    height: 50px;
+    float: right;
+    margin-top: 20px; /*boşluk bırakmak için*/
+}
+.navigation>li{
+    float: left; /*tek sıra yapabilmek için*/
+    list-style: none;
+    text-transform: none; 
+    text-decoration: none;
+    color: red; 
+    font-size: 18px;
+    margin-left: 60px;
+    line-height: 50px;
+}
+.navigation>li>a{
+    color: indigo;
+}
+.navigation>li>a:hover{ /*mouse uzerine gelince rengi değissin*/
+    color: #17bed2;
+}
+#home{
+    width:100%;
+    height: 500px;
+    background-color: wheat;
+    position: relative;
+    
+}
+.name {
+    color: #515769;
+    font-size: 50px;
+    line-height: 1;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+.title{
+    color: #515769;
+    padding-left: 100px;
+    padding-top: 30px;
+    font-size: 26px;
+    line-height: 1;
+}
+.image>img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-right: 100px;
+}
+#about{
+    margin-top: 100px;
+    width: 100%;
+}
+.about-img{
+    width: 517px;
+    height: 700px;
+    float: left;
+    margin-left: 100px;
+}
+.aboutme-text{
+    color: teal;
+    font-weight: Lighter;
+    line-height: 1;
+    height: 700px;
+    width: 600px;
+    float: left;
+    margin-left: 100px;
+}
+.aboutme>p{
+    padding-top: 10px;
+    line-height: 25px;
+}
+.aboutme>h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.aboutme>a{
+    display: block; /*in case of link or click*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 130px;
+    height: 15px;
+    background-color: aqua;
+    padding: 10px 10px 10px 10px;
+    color: black;
+
+}
+.aboutme>a:hover{
+    background-color: #17bed2;
+    color:white;
+}
+hr{
+    margin-top: 50px;
+}
+.skills{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.skills>ul>li{
+    margin-top: 20px;
+    margin-bottom:15px;
+    margin-right:50px;
+    
+}
+#experience{
+    color: teal;
+    font-size: 20px;
+    margin-top: 100px;
+    width: 100%;
+    height: 430px;
+    background-color: #fafafa;
+    float:left;
+}
+#experience>h2{
+    margin-left: 100px;
+}
+.title{
+    font-weight: bold;
+    color: teal;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.one{
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    font-size: 15px;
+    color: teal;
+    font-weight: lighter;
+    margin-left: 100px;
+    float: left;
+}
+.one:hover{
+    background-color: yellowgreen;
+    color: white;
+    cursor:pointer;
+}
+.one>p{
+    margin-top: 20px;
+    padding: 0px 20px 0px 20px;
+}
+.two,.three,.four{
+    width: 290px;
+    height: 150px;
+    background-color: white;
+    float: left;
+    color: teal;
+    font-size: 15px;
+    margin-left: 5px;
+    font-weight: lighter;
+}
+.two:hover,.three:hover,.four:hover{
+    background-color:yellowgreen;
+    color: white;
+    cursor:pointer;
+}
+#blog{
+    float: left;
+}
+.blog{
+    margin-left: 100px;
+
+}
+.blog>h2{
+    font-size: 30px;
+    color: teal;
+    margin-top: 100px;
+}
+.blog>p{
+    font-weight: lighter;
+    margin-right: 400px;
+}
+.blog-one{
+    margin-top: 30px;
+    width: 380px;
+    height: 450px;
+    float: left;
+    color: teal;
+    margin-left: 100px;
+}
+.blog-two,.blog-three{
+    margin-top: 30px;
+    width: 380px;
+    height: 450px;
+    float: left;
+    color: teal;
+    margin-left: 100px;
+}
+.learn-more{
+    display: block;
+    float: right;
+}
+.blog-one>img,.blog-two>img,.blog-three>img{
+    width: 300px;
+    height: 250px;
+}
+.blog-one>p,.blog-two>p,.blog-three>p{
+    margin-top: 10px;
+}
+#contact{
+    color: teal;
+    float: left;
+    background-color: white;
+    margin-top: 100px;
+    width: 100%;
+}
+.contact-page>p{
+    width: 600px;
+    margin-left: 100px;
+}
+.contact-page>h2{
+    margin-left: 100px;
+}
+.contact-info{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.contact-info>div{
+    float: left;
+}
+.contact-info>div:not(.location){
+    margin-left: 200px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    float: left;
+    margin-top: 50px;
+}
+footer>p{
+    color: red;
+    margin-left: 100px;
+    margin-top: 20px;
+}
